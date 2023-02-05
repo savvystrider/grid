@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch Grid</title>
+    <link rel="stylesheet" href="grid-styles.css" />
+  </head>
+  <body>
+    <h1>Let's make a grid!</h1>
+    <p>1. Drag your mouse over the grid below.</p>
+    <p>
+      2. Or, click the <strong>Clear Grid</strong> button to delete the existing
+      the grid.
+    </p>
+    <p>
+      3. Then, type in a number between 1-100 in the input field below and then
+      click on the
+      <strong>New Grid</strong> button to create a custom grid. Enjoy!
+    </p>
+    <button id="grid-btn">New Grid</button>
+    <button id="clear-btn">Clear grid</button>
+    <br /><br />
+    <input type="number" min="1" max="100" id="grid-input" />
+    <br /><br />
+    <hr />
+    <br />
+    <div id="grid-container"></div>
+    <script src="grid-index.js"></script>
+  </body>
+</html>
